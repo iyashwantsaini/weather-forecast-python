@@ -1,0 +1,7 @@
+packages required :
+
+requests 
+pyfiglet
+termcolor
+
+install them using : pip install name_of_package
