@@ -8,7 +8,8 @@ header=colored(header,color='magenta')
 print(header)
 
 user_input=input('Enter the state : ')
-url='http://api.openweathermap.org/data/2.5/forecast?q='+user_input+'&APPID=b83f69aa85641833c72ee4fa6fd89378'
+# Enter your key here in the url
+url='http://api.openweathermap.org/data/2.5/forecast?q='+user_input+'&APPID=your_key_goes_here'
 req=requests.get(
     url,
     headers={'Accept':'application/json'},
@@ -20,11 +21,10 @@ for i in range(0,20,2):
 
 
 
-
+# openweatherapi intructions : 
+    
 # Example of using API key in API call
-# Description:
 # Please, use your API key in each API call.
-# We do not process API requests without the API key.
 # API call:
 # http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={APIKEY}
 # Parameters:
