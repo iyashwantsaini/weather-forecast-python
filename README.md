@@ -27,3 +27,11 @@ zip = zip code
 
 
 For more information go here : https://openweathermap.org/api
+
+# Requirements
+1. requests = for getting data from the api
+2. pyfiglet = for large header
+3. termcolor = for header color
+
+# Running Script
+Run the file in console using the follwing command : python openweatherapi.py
