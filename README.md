@@ -1,4 +1,4 @@
-# weather_api_python
+# Weather forecast python
 A three day weather forecast python script.
 
 By city name
